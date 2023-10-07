@@ -15,7 +15,10 @@ age = eval(input('\nPlease Enter Your Age: '))
 
 #checking point
 
-if (age == 5):
+if (age < 5):
+    print("\nYou are {} years old, Too young for anything\n".format(age))
+
+elif (age == 5):
     print("\nYou are {} years old, Go to Kindergarten\n".format(age))
 
 elif (age >= 6 and age < 17):
